@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="3" failures="0" hostname="DESKTOP-NG93QM6" name="test.WhiteTest02Test" skipped="0" tests="3" time="0.11" timestamp="2019-04-29T12:12:44">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-NG93QM6" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="E:\java\eclipseEE\eclipseEE\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\templates" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.UOIPME_REG_PATH" value="C:\Program Files\Intel Corporation\USB over IP" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_181\lib\resources.jar;C:\Program Files\Java\jre1.8.0_181\lib\rt.jar;C:\Program Files\Java\jre1.8.0_181\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_181\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_181\lib\jce.jar;C:\Program Files\Java\jre1.8.0_181\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_181\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_181\classes" />
+    <property name="env.COMPUTERNAME" value="DESKTOP-NG93QM6" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="E:\java\eclipseEE\eclipseEE\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+    <property name="java.runtime.version" value="1.8.0_181-b13" />
+    <property name="env.lib" value="D:\VC98\mfc\lib;D:\VC98\lib" />
+    <property name="env.HOMEPATH" value="\Users\dell" />
+    <property name="ant.file.type.java类库" value="file" />
+    <property name="user.name" value="dell" />
+    <property name="user.language" value="zh" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_181\bin" />
+    <property name="env.LR_PATH" value="E:\Temp\Load\" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="java类库" />
+    <property name="java.version" value="1.8.0_181" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 78 Stepping 3, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\dell\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_181\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="GBK" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="../eclipseEE/eclipseEE/" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="CN" />
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_181" />
+    <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules" />
+    <property name="env.APPDATA" value="C:\Users\dell\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="E:\java\java类库\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.181-b13" />
+    <property name="env.VUGEN_PATH" value="E:\Temp\Load\" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\dell" />
+    <property name="ant.library.dir" value="E:\java\eclipseEE\eclipseEE\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_131" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\dell\AppData\Local\Temp" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="env.LG_PATH" value="E:\Temp\Load\" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="env.MSDevDir" value="D:\MSDev98" />
+    <property name="eclipse.pdebuild.scripts" value="E:\java\eclipseEE\eclipseEE\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\scripts" />
+    <property name="user.home" value="C:\Users\dell" />
+    <property name="target" value="1.8" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="env.CLASSPATH" value=".;C:\Program Files\Java\jdk1.8.0_131\lib;C:\Program Files\Java\jdk1.8.0_131\lib\tools.jar,;E:\java\tomcat\lib\mysql-connector-java-3.1.13-bin.jar" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\大学的积累\大二\工作所有\navicatformysql\mysql-5.6.38-winx64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;E:\java\apache-maven-3.6.1\bin;E:\Temp\Load\strawberry-perl\perl\bin;C:\Program Files\Java\jdk1.8.0_131\bin;D:\Tools\WinNT;D:\MSDev98\Bin;D:\Tools;D:\VC98\bin;;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;E:\java\eclipseEE\eclipseEE;;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.WhiteTest02Test skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\java\java类库\junit\TEST-test.WhiteTest02Test.xml crashfile=E:\java\java类库\junitvmwatcher6144588299993304468.properties propsfile=E:\java\java类库\junit843033176915543251.properties" />
+    <property name="java.class.path" value="E:\java\java类库\bin;D:\大学的积累\大二\工作所有\navicatformysql\mysql-connector-java-3.1.13-bin.jar;E:\java\eclipseEE\eclipseEE\plugins\org.junit.jupiter.api_5.0.0.v20170910-2246.jar;E:\java\eclipseEE\eclipseEE\plugins\org.junit.jupiter.engine_5.0.0.v20170910-2246.jar;E:\java\eclipseEE\eclipseEE\plugins\org.junit.jupiter.migrationsupport_5.0.0.v20170910-2246.jar;E:\java\eclipseEE\eclipseEE\plugins\org.junit.jupiter.params_5.0.0.v20170910-2246.jar;E:\java\eclipseEE\eclipseEE\plugins\org.junit.platform.commons_1.0.0.v20170910-2246.jar;E:\java\eclipseEE\eclipseEE\plugins\org.junit.platform.engine_1.0.0.v20170910-2246.jar;E:\java\eclipseEE\eclipseEE\plugins\org.junit.platform.launcher_1.0.0.v20170910-2246.jar;E:\java\eclipseEE\eclipseEE\plugins\org.junit.platform.runner_1.0.0.v20170910-2246.jar;E:\java\eclipseEE\eclipseEE\plugins\org.junit.platform.suite.api_1.0.0.v20170910-2246.jar;E:\java\eclipseEE\eclipseEE\plugins\org.junit.vintage.engine_4.12.0.v20170910-2246.jar;E:\java\eclipseEE\eclipseEE\plugins\org.opentest4j_1.0.0.v20170910-2246.jar;E:\java\eclipseEE\eclipseEE\plugins\org.apiguardian_1.0.0.v20170910-2246.jar;E:\java\eclipseEE\eclipseEE\plugins\org.junit_4.12.0.v201504281640\junit.jar;E:\java\eclipseEE\eclipseEE\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;E:\java\java类库;C:\Program Files\Java\jdk1.8.0_131\lib;E:\java\tomcat\lib\mysql-connector-java-3.1.13-bin.jar;E:\java\eclipseEE\eclipseEE\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;E:\java\eclipseEE\eclipseEE\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;E:\java\eclipseEE\eclipseEE\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;E:\java\eclipseEE\eclipseEE\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.LOGONSERVER" value="\\DESKTOP-NG93QM6" />
+    <property name="env.windir" value="C:\WINDOWS" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="E:\java\eclipseEE\eclipseEE\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+    <property name="env.PROCESSOR_REVISION" value="4e03" />
+    <property name="eclipse.pdebuild.home" value="E:\java\eclipseEE\eclipseEE\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\." />
+    <property name="java.io.tmpdir" value="C:\Users\dell\AppData\Local\Temp\" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="env.VS120COMNTOOLS" value="E:\项目\实验\Common7\Tools\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_181\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="E:\java\java类库" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\dell\AppData\Local" />
+    <property name="env.MAVEN_HOME" value="E:\java\apache-maven-3.6.1" />
+    <property name="ant.file.java类库" value="E:\java\java类库\build.xml" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;" />
+    <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\大学的积累\大二\工作所有\navicatformysql\mysql-5.6.38-winx64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;E:\java\apache-maven-3.6.1\bin;E:\Temp\Load\strawberry-perl\perl\bin;C:\Program Files\Java\jdk1.8.0_131\bin;D:\Tools\WinNT;D:\MSDev98\Bin;D:\Tools;D:\VC98\bin;;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;E:\java\eclipseEE\eclipseEE;" />
+    <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\dell\AppData\Local\Temp\null1394771448" />
+    <property name="basedir" value="E:\java\java类库" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="E:\java\eclipseEE\eclipseEE\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+    <property name="env.USERNAME" value="dell" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="source" value="1.8" />
+    <property name="file.encoding" value="GBK" />
+    <property name="env.USERDOMAIN" value="DESKTOP-NG93QM6" />
+    <property name="env.include" value="D:\VC98\atl\include;D:\VC98\mfc\include;D:\VC98\include" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.ANALYSIS_PATH" value="E:\Temp\Load\" />
+    <property name="ant.project.invoked-targets" value="build,CalculatorTest,junitreport,GeneralTest,WhiteTest02Test,WhiteTest01Test,CalculatorTest,WhiteTest01Test,WhiteTest02Test,LineCoverageSample,MultioleConditionCoverageSample,GeneralTest,ConditionDecisionCoverageTrue,TriangleTest,Triangle01Test,ConnTest,Conn,WhiteTest01 (7),WhiteTest02 (5),CalculatorTest,Conn,GeneralTest,JoinTest,Triangle01Test,TriangleTest,WhiteTest01 (7),WhiteTest01Test,WhiteTest02 (5),WhiteTest02Test,ConnTest,junitreport" />
+    <property name="env.LOG_FILE" value="C:\Users\dell\AppData\Local\Temp\\ihp_custom_batches.log" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="test.WhiteTest02Test" name="initializationError" time="0.0">
+    <error message="The class test.WhiteTest02Test is not public." type="java.lang.Exception">java.lang.Exception: The class test.WhiteTest02Test is not public.
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+</error>
+    <error message="Test class should have exactly one public constructor" type="java.lang.Exception">java.lang.Exception: Test class should have exactly one public constructor
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+</error>
+    <error message="No runnable methods" type="java.lang.Exception">java.lang.Exception: No runnable methods
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

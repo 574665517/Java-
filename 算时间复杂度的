@@ -1,0 +1,6 @@
+long start = System.currentTimeMillis();
+		System.out.println("start: " + start);
+
+long end = System.currentTimeMillis();
+		System.out.println("time :" + (end - start));
+这两个是算时间复杂度

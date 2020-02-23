@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry exported="true" kind="lib" path="E:/java/apache-maven-3.6.1/repository/mysql/mysql-connector-java/5.1.37/mysql-connector-java-5.1.37.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/dell/Tencent Files/3614357925/FileRecv/jedis/commons-pool2-2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/dell/Tencent Files/3614357925/FileRecv/jedis/jedis-2.7.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

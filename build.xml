@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="java类库">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../eclipseEE/eclipseEE/"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="JUnit 5.libraryclasspath">
+        <pathelement location="${ECLIPSE_HOME}plugins/org.junit.jupiter.api_5.0.0.v20170910-2246.jar"/>
+        <pathelement location="${ECLIPSE_HOME}plugins/org.junit.jupiter.engine_5.0.0.v20170910-2246.jar"/>
+        <pathelement location="${ECLIPSE_HOME}plugins/org.junit.jupiter.migrationsupport_5.0.0.v20170910-2246.jar"/>
+        <pathelement location="${ECLIPSE_HOME}plugins/org.junit.jupiter.params_5.0.0.v20170910-2246.jar"/>
+        <pathelement location="${ECLIPSE_HOME}plugins/org.junit.platform.commons_1.0.0.v20170910-2246.jar"/>
+        <pathelement location="${ECLIPSE_HOME}plugins/org.junit.platform.engine_1.0.0.v20170910-2246.jar"/>
+        <pathelement location="${ECLIPSE_HOME}plugins/org.junit.platform.launcher_1.0.0.v20170910-2246.jar"/>
+        <pathelement location="${ECLIPSE_HOME}plugins/org.junit.platform.runner_1.0.0.v20170910-2246.jar"/>
+        <pathelement location="${ECLIPSE_HOME}plugins/org.junit.platform.suite.api_1.0.0.v20170910-2246.jar"/>
+        <pathelement location="${ECLIPSE_HOME}plugins/org.junit.vintage.engine_4.12.0.v20170910-2246.jar"/>
+        <pathelement location="${ECLIPSE_HOME}plugins/org.opentest4j_1.0.0.v20170910-2246.jar"/>
+        <pathelement location="${ECLIPSE_HOME}plugins/org.apiguardian_1.0.0.v20170910-2246.jar"/>
+        <pathelement location="${ECLIPSE_HOME}plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="${ECLIPSE_HOME}plugins/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+    </path>
+    <path id="java类库.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="D:/大学的积累/大二/工作所有/navicatformysql/mysql-connector-java-3.1.13-bin.jar"/>
+        <path refid="JUnit 5.libraryclasspath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="java类库.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="ABC">
+        <java classname="排序.ABC" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="AfterBefore">
+        <java classname="日期Date类.AfterBefore" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="AnyFunction">
+        <java classname="math类型.AnyFunction" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Array (2)">
+        <java classname="集合类.Array" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="ArrayListDemo (1)">
+        <java classname="数组链表ArrayList.ArrayListDemo" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="ArrayListDemo">
+        <java classname="集合类.ArrayListDemo" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="BigDecimalDemo">
+        <java classname="math类型.BigDecimalDemo" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="BlackTest01">
+        <java classname="软件测试.BlackTest01" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="BlackTest02">
+        <java classname="软件测试.BlackTest02" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="BlackTest03">
+        <java classname="软件测试.BlackTest03" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="CalculatorTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.CalculatorTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="java类库.classpath"/>
+        </junit>
+    </target>
+    <target name="CalenderDemo1">
+        <java classname="日期Date类.CalenderDemo1" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="changdu">
+        <java classname="string类型.changdu" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Charac">
+        <java classname="Integer.Charac" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="ConditionDecisionCoverageTrue">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.ConditionDecisionCoverageTrue" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="java类库.classpath"/>
+        </junit>
+    </target>
+    <target name="Conn">
+        <java classname="数据库.Conn" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="ConnInsert">
+        <java classname="数据库.ConnInsert" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="ConnTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="数据库.ConnTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="java类库.classpath"/>
+        </junit>
+    </target>
+    <target name="DateDemo">
+        <java classname="日期Date类.DateDemo" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Demo (1)">
+        <java classname="string类型.Demo" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Demo (2)">
+        <java classname="javax.imageio.ImagelO图像输入输出.Demo" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Demo">
+        <java classname="多态.Demo" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Demo01">
+        <java classname="string类型.Demo01" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Division">
+        <java classname="string类型.Division" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="DrawCircle">
+        <java classname="绘图.DrawCircle" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="ExponetFunction">
+        <java classname="math类型.ExponetFunction" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="FinalStaticData">
+        <java classname="变量final.FinalStaticData" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="GeneralTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.GeneralTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="java类库.classpath"/>
+        </junit>
+    </target>
+    <target name="GenHao (1)">
+        <java classname="math类型.GenHao" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="GetCon">
+        <java classname="Integer.GetCon" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Index">
+        <java classname="string类型.Index" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="IndexOf">
+        <java classname="string类型.IndexOf" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="IntFunction">
+        <java classname="math类型.IntFunction" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="JoinTest">
+        <java classname="线程.JoinTest" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="LineCoverageSample">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.LineCoverageSample" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="java类库.classpath"/>
+        </junit>
+    </target>
+    <target name="Login (1)">
+        <java classname="数据库.Login" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="LoginSafe">
+        <java classname="数据库.LoginSafe" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="MatchString">
+        <java classname="string类型.MatchString" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="MathRandom">
+        <java classname="math类型.MathRandom" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="MathRandomChar">
+        <java classname="math类型.MathRandomChar" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="MultioleConditionCoverageSample">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.MultioleConditionCoverageSample" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="java类库.classpath"/>
+        </junit>
+    </target>
+    <target name="Muster">
+        <java classname="集合类.Muster" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="MyFrame">
+        <java classname="math类型.MathDemo" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="NetClassHomeWork">
+        <java classname="计算机网络作业算是String.NetClassHomeWork" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="PathCoverageSample">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.PathCoverageSample" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="java类库.classpath"/>
+        </junit>
+    </target>
+    <target name="RandomDemo">
+        <java classname="math类型.RandomDemo" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="RegexExample1">
+        <java classname="字符串匹配.RegexExample1" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="RegexMatches">
+        <java classname="字符串匹配.RegexMatches" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="RegexMatches01">
+        <java classname="字符串匹配.RegexMatches01" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="SellBread">
+        <java classname="线程.SellBread" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="SimpleDateFormatDemo">
+        <java classname="日期Date类.SimpleDateFormatDemo" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Sizeof">
+        <java classname="string类型.Sizeof" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="SleepMethodTest">
+        <java classname="线程.SleepMethodTest" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="StrChange">
+        <java classname="string类型.StrChange" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="StringBufferDemo">
+        <java classname="string类型.StringBufferDemo" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="StringBuilder">
+        <java classname="string类型.StringBuilder" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="StringBuilderDemo">
+        <java classname="string类型.StringBuilderDemo" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Summation">
+        <java classname="Integer.Summation" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Take">
+        <java classname="异常.Take" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Test (10)">
+        <java classname="线程.Test" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Test (12)">
+        <java classname="string类型.Test" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Test (8)">
+        <java classname="math类型.Test" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Test">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="java类库.classpath"/>
+        </junit>
+    </target>
+    <target name="Test01 (6)">
+        <java classname="形参和实参.Test01" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Test56_Sort">
+        <java classname="排序.Test56_Sort" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="TestThread">
+        <java classname="线程.TestThread" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="TestTwoThread">
+        <java classname="线程.TestTwoThread" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="ThrowTest">
+        <java classname="异常.ThrowTest" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Tree">
+        <java classname="二叉树.Tree" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="TreeSetDemo">
+        <java classname="集合类.TreeSetDemo" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="Triangle01Test">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.Triangle01Test" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="java类库.classpath"/>
+        </junit>
+    </target>
+    <target name="TriangleTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.TriangleTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="java类库.classpath"/>
+        </junit>
+    </target>
+    <target name="TrigonometricFunction">
+        <java classname="math类型.TrigonometricFunction" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="TryCatchDemo">
+        <java classname="异常.TryCatchDemo" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="VectorDemo">
+        <java classname="向量类Vector.VectorDemo" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="WhiteTest01 (7)">
+        <java classname="软件测试.WhiteTest01" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="WhiteTest01Test">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.WhiteTest01Test" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="java类库.classpath"/>
+        </junit>
+    </target>
+    <target name="WhiteTest02 (5)">
+        <java classname="软件测试.WhiteTest02" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="WhiteTest02Test">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.WhiteTest02Test" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="java类库.classpath"/>
+        </junit>
+    </target>
+    <target name="Wuliu">
+        <java classname="数据库.Wuliu" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="新建配置 (1)">
+        <java classname="" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="新建配置 (2)">
+        <java classname="" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="新建配置 (3)">
+        <java classname="" failonerror="true" fork="yes">
+            <classpath refid="java类库.classpath"/>
+        </java>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>
